@@ -39,3 +39,18 @@ a {
 h1, h2, h3 {
   font: inherit;
 }
+
+.container {
+  max-width: 1280px;
+  padding-inline: 32px;
+  margin-inline: auto;
+}
+
+/* utility-first */
+.grid {  /* Classe que ira fazer apenas uma coisa */
+  display: grid;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
+}
